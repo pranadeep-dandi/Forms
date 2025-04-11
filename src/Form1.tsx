@@ -363,7 +363,7 @@ export function Form1() {
 
       // Reset form
       setFormData({
-        username: "",
+        username: "123",
         password: "",
         text: "",
         checkbox: false,

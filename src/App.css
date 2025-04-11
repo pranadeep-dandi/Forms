@@ -1,0 +1,144 @@
+.card{
+  height: 1200px;
+  width: 760px;
+  justify-content:space-between;
+  gap: 32px;
+  align-items:center;
+  
+}
+.container{
+  align-items: center; 
+  justify-content: center;
+  height: 1012px;
+  width: 564px;
+    background-color: #7A5CFA;
+  
+
+}
+.form-group{
+  height: 1004px;
+  width: 564px;
+  justify-content: center;
+  align-items:center;
+  line-height: 18px;
+}
+.user{
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  width: 564px;
+  height: 82px;
+}
+.password{
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  width: 564px;
+  height: 108px;
+}
+
+.label{
+  font-size: 12px;
+  font-weight: bold;
+  color: 666666;
+  width: 564px;
+  height: 108px;
+
+}
+.form-check{
+  width: 368px;
+  height: 48px;
+}
+.form-group .form-check{
+  padding: 0px;
+}
+.form-check .form-check-input {
+  float: left !important; 
+  margin: 0px !important;
+  
+ 
+}
+
+.dropdown{
+  width: 564px;
+  height: 82px;
+}
+
+.user input.form-control:focus{
+  box-shadow: none;
+  border: 2px solid #7A5CFA;
+}
+.password input.form-control:focus{
+  box-shadow: none;
+  border: 2px solid #7A5CFA;
+}
+.label input.form-control:focus{
+  box-shadow: none;
+  border: 2px solid #7A5CFA;
+}
+.dropdown select.form-control:focus{
+  box-shadow: none;
+  border: 2px solid #7A5CFA;
+}  
+.radio input.form-check-input:focus{
+  box-shadow: none;
+
+}
+
+.form-check input.form-check-input:focus{
+  box-shadow: none;
+}
+.cancel{
+  border: 1px solid #7A5CFA;
+  background-color: #FFFF;
+  color: black;
+  padding: 5px;
+  width: 172px;
+  height: 56px;
+  border-radius: 5px;
+
+}
+.submit{
+  border: 1px solid #7A5CFA;
+  background-color: #7A5CFA;
+  color: black;
+  padding: 5px;
+  width: 172px;
+  height: 56px;
+  border-radius: 5px;
+
+}
+.buttons{
+  justify-content: space-between;
+  display: flex;
+  width: 564px;
+  height: 56px;
+}
+
+.is-invalid {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+.text-danger {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.form-check-input:checked[type=checkbox] {
+  --bs-form-check-bg-image: url('assets/Vector.png') !important;
+}
+.form-check-input:checked {
+  background-color: #FFFF !important;
+  border-color: #CCCC !important;
+  
+  /* height: 24px !important;
+  width: 24px !important; */
+}
+
+
+.input[type="checkbox" i] {
+  height: 24px !important;
+  width: 24px !important;
+}

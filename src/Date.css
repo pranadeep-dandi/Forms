@@ -1,0 +1,16 @@
+
+.types{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 100px;
+}
+.Card1{
+    height: 60px;
+    width: 180px;
+}
+.Card2{
+    height: 60px;
+    width: 180px;
+}
